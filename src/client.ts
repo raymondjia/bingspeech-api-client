@@ -35,8 +35,8 @@ const VOICES: { [key: string]: string } = {
     'ru-ru female': 'Microsoft Server Speech Text to Speech Voice (ru-RU, Irina, Apollo)',
     'ru-ru male': 'Microsoft Server Speech Text to Speech Voice (ru-RU, Pavel, Apollo)',
     // XXX this key is duplicated
-    // 'zh-cn female': 'Microsoft Server Speech Text to Speech Voice (zh-CN, HuihuiRUS)',
-    'zh-cn female': 'Microsoft Server Speech Text to Speech Voice (zh-CN, Yaoyao, Apollo)',
+    'zh-cn female': 'Microsoft Server Speech Text to Speech Voice (zh-CN, HuihuiRUS)',
+    // 'zh-cn female': 'Microsoft Server Speech Text to Speech Voice (zh-CN, Yaoyao, Apollo)',
     'zh-cn male': 'Microsoft Server Speech Text to Speech Voice (zh-CN, Kangkang, Apollo)',
     'zh-hk female': 'Microsoft Server Speech Text to Speech Voice (zh-HK, Tracy, Apollo)',
     'zh-hk male': 'Microsoft Server Speech Text to Speech Voice (zh-HK, Danny, Apollo)',
