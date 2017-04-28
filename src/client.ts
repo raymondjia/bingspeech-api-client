@@ -75,10 +75,11 @@ export class BingSpeechClient {
      * @deprecated Use the recognizeStream function instead. Will be removed in 2.x
      */
     recognize(wave: Buffer, locale: string = 'en-us'): Promise<VoiceRecognitionResponse> {
-        var bufferStream = new stream.PassThrough();
-        bufferStream.end(wave);
+        // var bufferStream = new stream.PassThrough();
+        // bufferStream.end(wave);
 
-        return this.recognizeStream(bufferStream, locale);
+        // return this.recognizeStream(bufferStream, locale);
+        return null;
     }
 
     recognizeStream(input: NodeJS.ReadWriteStream, locale: string = 'en-us'): Promise<VoiceRecognitionResponse> {
